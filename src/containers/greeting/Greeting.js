@@ -24,7 +24,7 @@ export default function Greeting() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                {greeting.title}{" "}
+                Hi all, I'm <span style={{whiteSpace: "nowrap"}}>Yi Yang (Yee Yeung)</span>{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
@@ -37,7 +37,6 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <div id="resume" className="empty-div"></div>
-              <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
