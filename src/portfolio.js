@@ -173,7 +173,7 @@ const workExperiences = {
       role: "Scientific Manager",
       company: "Tigermed",
       companylogo: require("./assets/images/tigermedLogo.png"),
-      date: "2025 – Present",
+      date: "2025 – 2026",
       desc: "",
       descBullets: []
     },
