@@ -20,26 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Yi Yang (Yee Yeung)",
+  title: "Hi all, I'm Yi Yang (Yee Yeung)",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A Clinical Research Physician & Developer 🩺 bridging clinical research and technology. Passionate about data science, predictive modelling, and building tools that improve healthcare outcomes."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/YeeYeung",
+  // linkedin: "",
+  gmail: "yiyang@yylives.today",
+  // gitlab: "",
+  // facebook: "",
+  // medium: "",
+  // stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,73 +47,61 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
+  subTitle:
+    "BRIDGING MEDICINE, DATA SCIENCE & TECHNOLOGY",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Clinical research design, medical writing, and regulatory strategy for pharmaceutical & biotech companies"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Data analysis & predictive modelling with Python, R, SQL, and SPSS for healthcare and real-world evidence studies"
+    ),
+    emoji(
+      "⚡ Full-stack web development and cloud deployment to build tools that support clinical workflows"
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "HTML5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +113,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "University of Canberra",
+      logo: require("./assets/images/ucLogo.png"),
+      subHeader: "Master of Information Technology and Systems",
+      duration: "2023 - 2024",
+      desc: "",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Australian National University",
+      logo: require("./assets/images/anuLogo.png"),
+      subHeader: "Master of Public Health",
+      duration: "2019 - 2020",
+      desc: "",
+      descBullets: []
+    },
+    {
+      schoolName: "Nantong University",
+      logo: require("./assets/images/ntuLogo.png"),
+      subHeader: "Bachelor of Clinical Medicine",
+      duration: "2011 - 2016",
+      desc: "",
+      descBullets: []
     }
   ]
 };
@@ -153,16 +145,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Clinical Research", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Data Analysis & Modelling",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Programming (Python / JS)",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Public Health",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +170,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Scientific Manager",
+      company: "Tigermed",
+      companylogo: require("./assets/images/tigermedLogo.png"),
+      date: "2025 – Present",
+      desc: "",
+      descBullets: []
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Medical Manager",
+      company: "Haihe Biopharma",
+      companylogo: require("./assets/images/haiheLogo.png"),
+      date: "2021 – 2022",
+      desc: ""
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Claims Manager",
+      company: "Ping An Insurance",
+      companylogo: require("./assets/images/pinganLogo.png"),
+      date: "2017 – 2018",
+      desc: ""
     }
   ]
 };
@@ -239,65 +232,56 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: "Publications",
+  subtitle: "",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title:
+        "Clinical Value of Natriuretic Peptide in Type 2 Diabetic Nephropathy",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "ZHU Yi-hua, YANG Yi, CHEN Yu-xiang, WU Jun-yuan, JIN Yan, CHEN Tong. Labeled Immunoassays & Clin Med, May 2014, Vol.21, No.2.",
+      footerLink: []
+    },
+    {
+      title:
+        "Diagnostic Value of MNV in Severe Head Injury Patients with Septicemia",
+      subtitle:
+        "FAN Yu-ping, ZHU Yi-hua, CHEN Yu-xiang, CAO Xing-jian, WANG Zhi-feng, YANG Yi. Chin J Clinicians (Electronic Edition), Feb 2016, Vol.10, No.3.",
+      footerLink: []
+    },
+    {
+      title:
+        "The Diagnostic Value of MNV in Cerebral Hemorrhage Coma Patients with Septicemia",
+      subtitle:
+        "LI Xin-ling, CAO Xing-jian, ZHU Yi-hua, FAN Yu-ping, YANG Yi. Labeled Immunoassays & Clin Med, Nov 2015, Vol.22, No.11.",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Paper",
+          url: "https://www.bjmyfx.com/CN/10.11748/bjmy.issn.1006-1703.2015.11.004"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title:
+        "Relationship Between the Levels of hsCRP and sEPCR with Arteriovenous Fistulas Thrombosis",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "CHEN Tong, FAN Yu-ping, CHEN Yu-xiang, WU Jun-yuan, ZHANG Xiu-lin, YANG Yi. Labeled Immunoassays & Clin Med, Apr 2015, Vol.22, No.4.",
+      footerLink: []
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title:
+        "Value of Novel Lymphocyte Population Parameters in Viral Infection Diagnosis",
+      subtitle:
+        "CAO Xing-jian, YANG Yi, CHEN Yu-xiang, WAN Yang-yang, QIU Yun-wen. Clinical Laboratory Journal, 2014, Vol.2.",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -324,7 +308,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,18 +327,19 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: "Podcast",
+  subtitle: "Guest appearances on podcast shows",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://embed.podcasts.apple.com/au/podcast/59-%E8%80%81%E5%8F%8B-%E4%BD%A0%E4%B8%BA%E4%BB%80%E4%B9%88%E5%9C%A8%E4%B8%89%E5%8D%81%E5%B2%81%E8%A3%B8%E8%BE%9E%E7%A7%BB%E6%B0%91/id1636436841?i=1000627399134",
+    "https://embed.podcasts.apple.com/au/podcast/vol-03-%E8%8B%B1%E5%85%AC%E5%AD%90%E5%A6%99%E5%BC%95%E6%83%85%E6%99%AF%E5%89%A7-%E5%AE%81%E8%B4%A2%E7%A5%9E%E7%AC%91%E5%88%9B%E6%96%B0%E6%AD%A6%E4%BE%A0/id1085635164?i=1000436356600"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -365,22 +350,22 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me",
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? My inbox is open for all.",
+  number: "",
+  email_address: "yiyang@yylives.today"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
